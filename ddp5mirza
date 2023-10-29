@@ -1,0 +1,30 @@
+kendaraan2=["audi","mobil","audi R8","nuansa high tech"]
+print(kendaraan2)
+print()
+kendaraan2 = kendaraan2 +["dove",4, 525_000_000]
+kendaraan2. remove("mobil")
+print(kendaraan2)
+print()
+pesan="""
+menu:
+1.menghitung luas persegi
+2.menghitung luas lingkaran
+3.menghitung luas segitiga
+pilih menu:
+"""
+pilihan=input(pesan)
+match pilihan:
+   case"1":
+     print("anda memasukkan angka 1 untuk menghitung luas persegi")
+     sisi=int (input("masukan sisi:"))
+     luas= sisi*sisi
+     print("luas persegi dengan sisi",sisi,"adalah",luas)
+
+   case"2":
+      print("anda memasukkan angka 2 untuk menghitung luas lingkaran")
+      jari= int (input("masukan jari jari:"))
+      luas= 22/7*jari*jari
+   case"3":
+    print("anda memasukkan angka 3 untuk menghitung luas segitiga") 
+    alas= int(input("masukan alas:")) 
+    tinggi= int(input("masukan tinggi:"))
